@@ -8,7 +8,7 @@ To execute program follow the given steps:<br />
 3-Compile record.py<br />
 4-Compile main.py<br />
 5-If above steps are executed correctly than user just have to answer queries asked in program<br />
-6-You can also see a file name 'databse.db' created in the same folder.<br />
+6-You can also see a file name 'database.db' created in the same folder.<br />
 
 Prerequisites:<br />
 1-Python3 should be installed in system.<br />
