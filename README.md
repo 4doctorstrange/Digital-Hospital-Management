@@ -3,7 +3,7 @@ A CLI program that maintains and update the record of patients.<br />
 
 
 To execute program follow the given steps:<br />
-1-Put all the files i.e patient.py,record.py and main.py<br />
+1-Put all the files i.e patient.py,record.py and main.py in single folder.<br />
 2-Compile patient.py<br />
 3-Compile record.py<br />
 4-Compile main.py<br />
