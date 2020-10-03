@@ -62,22 +62,3 @@ class record:
 	def get_bill(self):
 		pass
 
-
-
-
-
-'''
-name="xyz sharma"
-phnno=9810637282
-emgno=862829292
-age=20
-gender="Male"
-bloodtype="A+"
-weight=89
-height=179
-symptoms="fever"
-x=datetime.datetime.now()
-date=x.strftime("%x")
-reg=int(date.replace("/","")+str(phnno))
-p=patients(reg,name,phnno,emgno,age,gender,bloodtype,weight,height,symptoms,date)
-'''
