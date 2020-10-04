@@ -42,14 +42,15 @@ class record:
 		conn.close()
 
 	def showby_date(self,d):
+		print("Patient ID \t Patient Name \t   Phone Number   Emergency Contact.No \t Age  Gender  Blood Type  Weight  Height  Symptoms/Details \t  Date of Admission")
+		print()
 		conn=sqlite3.connect("database.db")
 		c=conn.cursor()
 		c.execute(''' SELECT * FROM records WHERE DateOfAdmission=(?)''',(d,))
 		arr=c.fetchall()
 		for row in arr:
-			for i in range(len(row)):
-				print(row[i],end="\t")
-			print()
+			print(row[0],"\t",row[1],row[2],"  ",row[3],"  \t",row[4],"  ",row[5],"    ",row[6],"\t  ",row[7],"\t  ",row[8],"    ",row[9],"\t  ",row[10])
+		print()
 		conn.commit()
 		conn.close()
 
@@ -61,4 +62,6 @@ class record:
 		conn.close()
 	def get_bill(self):
 		pass
+
+
 
