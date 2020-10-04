@@ -40,7 +40,7 @@ while True:
 		print()
 
 	elif q==3:
-		d=input("enter date in given format MM/DD/YY : ")
+		d=input("enter date in given format MM/DD/YY : \n")
 		obj=record()
 		obj.showby_date(d)
 		print()
